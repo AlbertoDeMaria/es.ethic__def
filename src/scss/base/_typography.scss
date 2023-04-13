@@ -1,0 +1,20 @@
+body {
+  font-family: 'Helvetica Neue';
+}
+
+.small{
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.medium{
+  font-size: 2vw;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.title, .nome-prodotto{
+  font-size: 4vw;
+  font-weight: 300;
+  text-transform: uppercase;
+}
