@@ -59,27 +59,24 @@ main {
   height: calc(100vh - 60px);
   position: relative;
   .close-column {
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: none;
     outline: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     z-index: 999;
-    position: fixed;
+    position: absolute;
     right: 30px;
-    top: 90px;
+    top: 30px;
     display: none;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    background-color: transparent;
   }
 
-  // sir but you can't just simply replace the stuff you have imported from the scss like the mixin and the var with some static data?///
-  // i am trying to figure this out in  best way so that you will face problem in the future
   .close-column svg {
-    width: 30px;
+    width: 50px;
   }
 
   #divleft {
@@ -211,9 +208,9 @@ main {
         flex-direction: column;
         justify-content: flex-end;
         h1 {
-          line-height: 50px;
+          line-height: 40px;
           font-size: 50px;
-          font-weight: 300;
+          font-weight: 600;
           span {
             font-size: 13px;
             font-weight: 400;
@@ -346,7 +343,7 @@ main {
           p {
             font-size: 13px;
             font-weight: 400;
-            line-height: 1.5;
+            line-height: 1.2;
           }
           .img-box {
             width: 100%;
@@ -525,7 +522,7 @@ main {
           justify-content: flex-end;
           > h1 {
             font-size: 2.5vw;
-            font-weight: 500;
+            font-weight: 700;
             margin-bottom: 1.5rem;
           }
           > p {

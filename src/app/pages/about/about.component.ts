@@ -58,8 +58,6 @@ export class AboutComponent {
       element.classList.remove('thirdbg');
     }, 400);
 
-    console.log(innerContent);
-
     if (innerContent) {
       innerContent.nativeElement.style.display = 'none';
     }
@@ -79,7 +77,6 @@ export class AboutComponent {
       innerContent = this.innerContentRight;
       element.classList.add('thirdbg');
     }
-    console.log(bgColor);
 
     let header = document.querySelector('header') as HTMLDivElement;
     header.style.backgroundColor = bgColor;
@@ -119,5 +116,9 @@ export class AboutComponent {
 
       innerContent.nativeElement.style.backgroundColor = bgColor;
     }
+  }
+  ngOnDestroy() {
+    let header = document.querySelector('header') as HTMLDivElement;
+    header.style.backgroundColor = '#fff';
   }
 }

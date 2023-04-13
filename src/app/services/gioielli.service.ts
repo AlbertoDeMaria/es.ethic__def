@@ -15,8 +15,8 @@ export class GioielliService {
     return this.http.get<any[]>('https://albertodemaria.github.io/jsonDB/Esethic_database.json')
       .pipe(
         map((data: any[]) => {
-          return data.map(({ id, nome, codice, edizione, materiale, lavorazione, size, price_no_iva, price_iva, tipologia }) => {
-            return { id, nome, codice, edizione, materiale, lavorazione, size, price_no_iva, price_iva, tipologia };
+          return data.map(({ id, nome, codice, edizione, materiale, lavorazione, size, price_no_iva, price_iva, tipologia, description }) => {
+            return { id, nome, codice, edizione, materiale, lavorazione, size, price_no_iva, price_iva, tipologia, description };
           });
         })
       );

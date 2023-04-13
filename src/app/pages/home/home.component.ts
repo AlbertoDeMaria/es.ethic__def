@@ -18,6 +18,8 @@ export class HomeComponent implements OnInit {
   @ViewChild('octagon') mySvg!: ElementRef<SVGSVGElement>;
 
   products: string[] = [];
+  intervelhome: any;
+
 
   constructor(private gioielliSrv: GioielliService) {}
 
@@ -46,95 +48,80 @@ export class HomeComponent implements OnInit {
   }
 
   handleRamdomPictures() {
-    let AllInnerDiv = document.querySelectorAll(
-      '.slideshow-images-wrapper > div'
+    let firstchild = document.querySelector(
+      '.slideshow-images-wrapper > div:first-child img.active'
+    );
+    let secondChild = document.querySelector(
+      '.slideshow-images-wrapper > div:nth-child(2) img.active'
+    );
+    let mobileblockActive = document.querySelector('.mobile-black.active');
+
+    if (mobileblockActive) {
+      mobileblockActive.classList.remove('active');
+    }
+    if (firstchild) {
+      firstchild.classList.remove('active');
+    }
+    if (secondChild) {
+      secondChild.classList.remove('active');
+    }
+
+    let all_images = document.querySelectorAll(
+      '.slideshow-images-wrapper > div:first-child img'
     );
 
-
-
-    let all_images = [
-      '../../../assets/img/b&w/backup/1Grande.jpeg',
-      '../../../assets/img/b&w/backup/2Grande.jpeg',
-      '../../../assets/img/b&w/backup/3Grande.jpeg',
-      '../../../assets/img/b&w/backup/4Grande.jpeg',
-      '../../../assets/img/b&w/backup/5Grande.jpeg',
-      '../../../assets/img/b&w/backup/6Grande.jpeg',
-      '../../../assets/img/b&w/backup/7Grande.jpeg',
-      '../../../assets/img/b&w/backup/8Grande.jpeg',
-      '../../../assets/img/b&w/backup/9Grande.jpeg',
-      '../../../assets/img/b&w/backup/10Grande.jpeg',
-    ];
     let firstPic = this.randomIntFromInterval(0, all_images.length - 1);
     let secondPic = this.randomIntFromInterval(0, all_images.length - 1);
-    let firstcol = this.randomIntFromInterval(0, 3);
-    let secondCol = this.randomIntFromInterval(0, 3);
-    let firstImageWidth = this.randomIntFromInterval(222, 400);
-    let secondImageWidth = this.randomIntFromInterval(222, 400);
+
+    let firstImageHeight = this.randomIntFromInterval(50, 80);
+    let secondImageHeight = this.randomIntFromInterval(50, 80);
 
     let topArea = this.randomIntFromInterval(20, 100);
-    let leftArea = this.randomIntFromInterval(20, 100);
-
     let topAreas = this.randomIntFromInterval(20, 100);
-    let leftAreas = this.randomIntFromInterval(20, 100);
 
     while (firstPic == secondPic) {
-      firstPic = this.randomIntFromInterval(1, all_images.length - 1);
-      secondPic = this.randomIntFromInterval(1, all_images.length - 1);
+      firstPic = this.randomIntFromInterval(0, all_images.length - 1);
+      secondPic = this.randomIntFromInterval(0, all_images.length - 1);
     }
 
-    while (firstcol == secondCol) {
-      firstcol = this.randomIntFromInterval(1, 4);
-      secondCol = this.randomIntFromInterval(1, 4);
+    if (firstImageHeight == secondImageHeight) {
+      firstImageHeight = this.randomIntFromInterval(50, 80);
+      secondImageHeight = this.randomIntFromInterval(50, 80);
     }
 
-    while (firstImageWidth == secondImageWidth) {
-      firstImageWidth = this.randomIntFromInterval(160, 300);
-      secondImageWidth = this.randomIntFromInterval(160, 300);
+    let firstchildAfter = document.querySelectorAll(
+      '.slideshow-images-wrapper > div:first-child img'
+    );
+    let secondChildAfter = document.querySelectorAll(
+      '.slideshow-images-wrapper > div:nth-child(2) img'
+    );
+
+    if (firstchildAfter[firstPic]) {
+      let Image = firstchildAfter[firstPic] as HTMLImageElement;
+      Image.classList.add('active');
+      Image.style.height = `${firstImageHeight}%`;
+      Image.style.top = `${topArea}%`;
+      Image.style.transform = `translateY(-${topArea}%)`;
     }
-    while (topArea == leftArea) {
-      topArea = this.randomIntFromInterval(20, 100);
-      leftArea = this.randomIntFromInterval(20, 100);
+    if (secondChildAfter[secondPic]) {
+      let Image = secondChildAfter[secondPic] as HTMLImageElement;
+      Image.classList.add('active');
+      Image.style.height = `${secondImageHeight}%`;
+      Image.style.top = `${topAreas}%`;
+      Image.style.transform = `translateY(-${topAreas}%)`;
     }
-    while (topAreas == leftAreas) {
-      topArea = this.randomIntFromInterval(20, 100);
-      leftArea = this.randomIntFromInterval(20, 100);
-    }
-    AllInnerDiv.forEach((EachDiv) => {
-      EachDiv.innerHTML = '';
-    });
 
-    if (innerWidth > 1050) {
-
-      if(AllInnerDiv[
-        firstcol
-      ]){
-        AllInnerDiv[
-          firstcol
-        ].innerHTML = `<img src=${all_images[firstPic]} style="left:${leftArea}%;top:${topArea}px;width:${firstImageWidth}px;height:200px;object-fit:cover;" />`;
-
-      }
-      setTimeout(() => {
-        if(AllInnerDiv[
-          secondCol
-        ]){
-          AllInnerDiv[
-            secondCol
-          ].innerHTML = `<img src=${all_images[secondPic]} style="left:${leftAreas}%;top:${topAreas}px;width:${secondImageWidth}px;height:200px;object-fit:cover;"  />`;
-        }
-
-      }, 500);
-    } else {
-      let mobileblock = document.querySelector(
-        '.mobile-black'
-      ) as HTMLImageElement;
-
-      mobileblock.src = all_images[firstPic];
+    if (window.innerWidth < 1050) {
+      let mobileblock = document.querySelectorAll('.mobile-black');
+      let Image = mobileblock[firstPic] as HTMLImageElement;
+      Image.classList.add('active');
     }
   }
 
   ramdomPhotoSlider() {
     this.handleRamdomPictures();
-    setInterval(() => {
+    this.intervelhome = setInterval(() => {
+
       this.handleRamdomPictures();
     }, 2000);
   }
@@ -194,5 +181,11 @@ export class HomeComponent implements OnInit {
       }, 100);
       currentIndex = (currentIndex + 1) % productslocal.length;
     }, 2000);
+  }
+
+  ngOnDestroy() {
+    if (this.intervelhome) {
+      clearInterval(this.intervelhome);
+    }
   }
 }

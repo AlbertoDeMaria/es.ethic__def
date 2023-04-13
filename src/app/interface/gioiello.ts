@@ -9,4 +9,5 @@ export interface Gioiello {
   price_no_iva: string;
   price_iva: string;
   tipologia: string;
+  description: string;
 }
