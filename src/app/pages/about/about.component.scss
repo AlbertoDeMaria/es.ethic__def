@@ -1,4 +1,5 @@
 @import "../../../scss/styles.scss";
+
 body {
   font-family: "Helvetica Neue";
 }
@@ -78,7 +79,6 @@ main {
   .close-column svg {
     width: 50px;
   }
-
   #divleft {
     width: calc(100% / 3);
     height: calc(100vh - 60px);
@@ -91,6 +91,35 @@ main {
 
     &:hover {
       background-color: #3e5155;
+    }
+    .inner-content-left {
+      .first-inner {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 0.8fr;
+        align-items: flex-start;
+
+        padding: 2rem 2rem;
+
+        .left-side {
+          h1 {
+            font-size: 10vw;
+            line-height: 130px;
+            font-weight: 300;
+            color: black;
+          }
+        }
+        .right-side {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1rem;
+          p {
+            font-size: 13px;
+            color: black;
+            line-height: 20px;
+          }
+        }
+      }
     }
   }
   .firstbg {
@@ -361,7 +390,7 @@ main {
     display: none;
 
     .small {
-      color: white;
+      color: black;
       width: 500px;
     }
 
@@ -598,8 +627,38 @@ main {
         }
       }
     }
+    #divleft {
+      .inner-content-left {
+        .first-inner {
+          min-height: unset;
 
-    #divmid {
+          grid-template-columns: 1fr;
+
+          padding: 2rem 2rem;
+
+          .left-side {
+            h1 {
+              font-size: 10vw;
+              line-height: 160px;
+              font-weight: 300;
+              color: black;
+              br {
+                display: none;
+              }
+            }
+          }
+          .right-side {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+            p {
+              font-size: 13px;
+              color: black;
+              line-height: 28px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -735,7 +794,7 @@ main {
       display: none;
 
       .small {
-        color: white;
+        color: black;
         width: 500px;
       }
 
@@ -794,6 +853,22 @@ main {
         }
         .img-box + h1 {
           display: none;
+        }
+      }
+    }
+  }
+  #divleft {
+    .inner-content-left {
+      .first-inner {
+        min-height: unset;
+        padding: 2rem 0px !important;
+        .left-side {
+          h1 {
+            line-height: unset !important;
+          }
+        }
+        .right-side {
+          grid-template-columns: 1fr !important;
         }
       }
     }

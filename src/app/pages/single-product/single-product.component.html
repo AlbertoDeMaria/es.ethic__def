@@ -15,9 +15,9 @@
       <div class="data">
         <table>
           <tbody>
-            <tr *ngFor="let key of getObjectKeys(object)">
-              <td *ngIf="getObjectValue(key)" class="uppercase">{{ key }}</td>
-              <td *ngIf="getObjectValue(key)" >{{ getObjectValue(key) }}</td>
+            <tr *ngFor="let item of getObjectKeys(object)">
+              <td *ngIf="getObjectValue(item.key)" class="uppercase">{{ item.displayName }}</td>
+              <td *ngIf="getObjectValue(item.key)" >{{ getObjectValue(item.key) }}</td>
             </tr>
           </tbody>
         </table>

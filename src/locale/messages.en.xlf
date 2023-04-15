@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-EN" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8446558896907756856" datatype="html">
+        <source> COS È <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italicOnHover&quot;&gt;"/> ES.DESIGN <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> WHAT IS <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italicOnHover&quot;&gt;"/> ES.DESIGN <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3522693180905677339" datatype="html">
+        <source>01</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4786847909355578633" datatype="html">
+        <source> CHI È <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italicOnHover&quot;&gt;"/> RICCARDO CONTINI <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> WHO IS <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italicOnHover&quot;&gt;"/> RICCARDO CONTINI <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8780614912890786182" datatype="html">
+        <source>02</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4448181301095893342" datatype="html">
+        <source>RICCARDO CONTINI</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3407831999723632739" datatype="html">
+        <source> AUTOBIOGRAFIA <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> CREATIVA </source>
+        <target> CREATIVE <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> AUTOBIOGRAPHY</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">65,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9215785129776363408" datatype="html">
+        <source> Sono Riccardo e questa è la mia storia o meglio quella che vorrei raccontare; nel farlo sono combattuto se partire dalle mie origini o dalle mie ispirazioni, in ogni caso sono entrambe riflesso tangibile nella mia proposta artistica. Nasco in Primavera, durante un&apos;inaspettata notte di neve che forse ha da subito segnato la mia attrazione nei confronti del Cielo e delle sue declinazioni Terrene… Respirando Arte sin da piccolo, muovo i primi passi verso la formazione di un&apos;espressione estetica disegnando e riproponendo in maniera personale tutto ciò che mi circonda. Le figure della mia infanzia come i viaggi, i vestiti nelle vetrine, le opere d&apos;arte, arricchiscono la mia quotidianità in maniera così diversa che posso soltanto rimanerne segnato profondamente, seppur secondo una percezione sempre molto personale e poco scolastica. </source>
+        <target> I’m Riccardo and this is my story, or better what I would like to tell. In doing this I’m torn between starting from my heritage or my inspirations, either way they both are physically reflected in my artistic project. I was born in the Spring, during an unexpected snowy night, which perhaps marked since the beginning my attraction towards Heaven and its earthly declinations… Being surrounded by Art since birth, I start to move my first steps towards the formation of an esthetic expression by drawing and proposing in a personal manner all that surrounds me. The presences from my childhood, the travels, the clothes in storefronts, the artworks, they all enrich my everyday life in such a peculiar way that I cannot help but end up being deeply marked by them. Although always according to a very personal and un-scholastic perception. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">71,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8041765285755439154" datatype="html">
+        <source>ES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3509233451186591101" datatype="html">
+        <source> Dopo gli studi classici nell&apos;estemporanea cornice che è Venezia, mi laureo in Fashion Design all&apos;Istituto Marangoni di Milano. </source>
+        <target> After classical studies in the&apos; extemporaneous frame which is Venice, I graduated in Fashion Design at&apos; the Marangoni Institute of Milan. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">86,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6520898334572162120" datatype="html">
+        <source> Una dinamica ed esplosiva capitale alla quale nonostante non mi senta appartenere a pieno, </source>
+        <target> A dynamic and innovative city which, although I do not feel I fully belong to it, </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">89,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1926490340135596700" datatype="html">
+        <source>è diventata una mia nuova tana che voglio ringraziare per avermi dato spazio e consapevolezza personale tanto da piantare fondamenta sempre più stabili nel mio Microuniverso creativo. </source>
+        <target>has become my new burrow and which I want thank for having given me the space and personal consciousness to plant ever more sturdy foundations for my creative Microcosm. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5192272572393869406" datatype="html">
+        <source>E’ infatti la spiritualità leggera e profonda della Natura abbinata per contrasto al frastuono avanguardistico della Metropoli, la mia più sincera fonte di ispirazione per ES, progetto creativo che nasce dal concetto psicanalitico di &quot;voce spontanea della Natura nell&apos;anima dell’uomo&quot;. Figure, soggetti, soluzioni che nascono da un concetto naturalistico-spirituale ma si esprimono in forme dinamiche e sempre innovative! Materiali naturali che si fondono in maniera sinergica e danno vita un gioco di contrasti tra superfici brillanti e attuali con altre che paiono erose dalla Natura Madre che nel richiamare a se gli elementi diventa in realtà nuova Generatrice!</source>
+        <target>It is in fact in the light and profound spirituality of Nature, merged by contrast with the avant-garde uproar of the Metropolis, that my truest source of inspiration for ES lies. A creative project which is born from the psychoanalytic concept of&quot; “spontaneous voice of Nature in&quot; the soul of man”. Figures, subjects, solutions which are born from a naturalistic-spiritual concept, but which express themselves in dynamic and ever innovative shapes. Natural materials blend in a synergic way and give birth to games of contrast among shiny and untouched surfaces, with others which appear eroded by Mother Nature, whom in calling to herself the elements becomes in reality a new Generatrix! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">94,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1189720373635137835" datatype="html">
+        <source>C/O Riccardo Contini</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8787906177464350021" datatype="html">
+        <source> PERCHÈ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italicOnHover&quot;&gt;"/> LA FRECCIA <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> WHY <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;italicOnHover&quot;&gt;"/> LA FRECCIA <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="454471323028466166" datatype="html">
+        <source>03</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6173772722006818439" datatype="html">
+        <source>LA FRECCIA</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6271436557767076060" datatype="html">
+        <source> ES propone una serie di 19 pezzi unici, preziosi gioielli ispirati allo Spirito della Natura e offerti a un pubblico interessato a indossare un pensiero profondo e universale, attraverso un design accattivante dalle ispirazioni Native, Tribali, Primordiali ma sempre innovative. Il gioiello di ES si può immaginare con il gesto di una mano che affonda nella terra smossa e ne estrae un pugno apparentemente grezzo che nasconde in realtà un frammento di Luce!!! Il soggetto di questa prima proposta è la Freccia, simbolo di Pace e Unione Cosmica. </source>
+        <target> ES proposes a series of 19 unique pieces, precious jewels inspired by the Spirit of Nature and offered to a public interested in wearing a profound and universal thought, through a captivating design of Native, Tribal and Primordial inspirations, yet always innovative. The jewel in ES’ vision can be imagined as the gesture of a hand that plunges into loose soil and extracts an apparently rough handful, which in reality hides a fragment of Light!!! The central subject of our first proposal is the Arrow, a symbol of Peace and Cosmic Union.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">124,128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5018418901871103184" datatype="html">
+        <source> &quot;Vita è un ponte <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> da attraversare <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> e non sul quale <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> costruire una casa&quot; <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> [ Recita un porverbio Dakota]<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> &quot;Life is a bridge <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> to cross, not one<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> on top of which to <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> build a house&quot; <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> [Recites and ancient Lakota saying]<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">136,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6249432494025894288" datatype="html">
+        <source> Questa, scoccata, volteggiando in aria unisce Tempo e Materia in un dialogo incessante, fotografando attimi di rara bellezza in cui la Natura agisce in maniera tangibile sulle superfici che ne accolgono l’operato. Siano riplasmati dal Vento in un Canyon, erosi nel cuore di una Sequoia o frastagliati dal Ghiaccio, i gioielli in mostra sono volti a stimolare in maniera estetica e introspettiva la bellezza che è già parte della Natura, quindi già parte di Noi!!! Si tratta di quell&apos;intesa simbolica con Madre Terra che ci proietti a Padre Cielo, genitori ideali/reali di cui abbiamo assoluto bisogno; Noi, così piccoli e lontani dal senso di sinergia con il Creato. </source>
+        <target> The arrow, once it is struck, hovering in the air unifies Time and Matter in an endless dialogue, capturing instants of rare beauty in which Nature acts in a tangible way on the surfaces which welcome Her workings. Wether they are moulded by the Wind in the Canyon, eroded in the heart of a Sequoia tree or fragmented by Ice, the jewels aim at stimulating in an aesthetic and introspective manner the beauty which is already part of Nature, thus already part of Us!!! It is about the&apos; symbolic understanding with Mother Earth, who projects us towards Father Heaven, ideal/real parents whom we absolutely need. Us, so small and distant from the sense fo synergy with Creation. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">147,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5254334171379985751" datatype="html">
+        <source>c/o Riccardo Contini</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6439581393197428756" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;mailto:riccardo@es.design&quot;&gt;"/>mail: riccardo@es.design<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2550393956421812336" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;&quot;&gt;"/>instagram: @es.projectt<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6571723603223646925" datatype="html">
+        <source>Progetto</source>
+        <target>Project</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2352899333765080767" datatype="html">
+        <source>Tempo</source>
+        <target>Time</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4105628012607998344" datatype="html">
+        <source>Prodotto</source>
+        <target>Product</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3699723068504338184" datatype="html">
+        <source>C/O<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Riccardo Contini</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6216409386755553327" datatype="html">
+        <source>VOLTEGGIANDO <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>TRA TEMPO E MATERIA.</source>
+        <target>VOLTEGGIANDO <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>TRA TEMPO E MATERIA.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1250599743779035389" datatype="html">
+        <source> Alla ricerca dello Spirito della Natura in ognuno di noi, ES propone una selezione di gioielli unici realizzati in oro etico e l&apos;anteprima della nuova collezione “Eclissi tra Tempo e materia”. </source>
+        <target> In search of the Spirit of Nature in each of us, ES offers a selection of unique jewels made of ethical gold and the preview of the new collection "Eclissi tra Tempo e materia". </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">213,215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>Chi siamo</source>
+        <target>About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5968366500418000730" datatype="html">
+        <source>Collezioni</source>
+        <target>Collection</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contatti</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/header/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -5,18 +5,31 @@ body {
 .small{
   font-size: 12px;
   line-height: 1.2;
+
+  @media screen and (max-width: 500px) {
+    font-size: 15px;
+  }
 }
 
 .medium{
   font-size: 2vw;
   text-transform: uppercase;
   line-height: 1;
+
+
+  @media screen and (max-width: 700px) {
+    font-size: 25px;
+  }
 }
 
 .title, .nome-prodotto{
-  font-size: 4vw;
+  font-size: 6vw;
   font-weight: 300;
   text-transform: uppercase;
+
+  @media screen and (max-width: 500px) {
+    font-size: 40px;
+  }
 }
 
 .text{

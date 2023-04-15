@@ -19,7 +19,8 @@ export class HomeComponent implements OnInit {
 
   products: string[] = [];
   intervelhome: any;
-
+  backupFirstSrc: any;
+  backupSecondSrc: any;
 
   constructor(private gioielliSrv: GioielliService) {}
 
@@ -79,10 +80,18 @@ export class HomeComponent implements OnInit {
     let topArea = this.randomIntFromInterval(20, 100);
     let topAreas = this.randomIntFromInterval(20, 100);
 
-    while (firstPic == secondPic) {
+    while (
+      firstPic == this.backupFirstSrc ||
+      secondPic == this.backupFirstSrc ||
+      firstPic == this.backupSecondSrc ||
+      secondPic == this.backupSecondSrc ||
+      firstPic == secondPic
+    ) {
       firstPic = this.randomIntFromInterval(0, all_images.length - 1);
       secondPic = this.randomIntFromInterval(0, all_images.length - 1);
     }
+    this.backupFirstSrc = firstPic;
+    this.backupSecondSrc = secondPic;
 
     if (firstImageHeight == secondImageHeight) {
       firstImageHeight = this.randomIntFromInterval(50, 80);

@@ -30,10 +30,20 @@ export class SingleProductComponent implements OnInit {
     header.style.backgroundColor = '#fff';
   }
 
-  getObjectKeys(obj: Object): string[] {
-    const excludedKeys = ['id', 'nome', 'price_no_iva', "codice", 'tipologia', 'description'];
-    return Object.keys(obj).filter(key => !excludedKeys.includes(key));
-  }
+  getObjectKeys(obj: Object): { key: string, displayName: string }[] {
+    const excludedKeys = ['id', 'nome', 'price_no_iva', 'nome_eng', "desc_eng", "codice", 'description', 'tipologia'];
+    const keys = Object.keys(obj).filter(key => !excludedKeys.includes(key));
+    const result = keys.map(key => {
+      if (key === 'price_iva') {
+        return { key, displayName: 'prezzo' };
+      } else if (key === 'size') {
+        return { key, displayName: 'taglia' };
+      } else {
+        return { key, displayName: key };
+      }
+    });
+    return result;
+}
 
   getObjectValue(key: string): any {
     return this.object[key as keyof Gioiello];

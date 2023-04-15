@@ -9,7 +9,7 @@ import { GioielliService } from 'src/app/services/gioielli.service';
 export class CollectionsComponent implements OnInit {
 
   gioielli!:Gioiello[];
-  productTitle = '*NOME PRODOTTO';
+  productTitle = '*';
   private typingTimeout: any;
 
   constructor(private gioielliSrv:GioielliService) { }
